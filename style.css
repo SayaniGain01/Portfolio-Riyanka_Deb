@@ -329,6 +329,7 @@ article .icon{
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+
 }
 .contact-info-upper-container{
     display: flex;
@@ -354,6 +355,39 @@ article .icon{
     cursor:default;
     height: 2rem;
 }
+
+/*Portfolio*/
+#portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-container{
+    display: flex;
+    justify-content: space-around;
+}
+.portfolio-btn-container{
+    border-radius: 2rem;
+    border: rgb(53,53,53)0.1rem solid;
+    border-color:rgb(5, 5, 5) ;
+    background: rgb(53,53,53);
+    color: white;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;   
+}
+.portfolio-btn-container:hover{
+    background: rgb(0,0,0);
+    color: white;
+    cursor: pointer;
+}
+
 
 /*Footer*/
 footer{
